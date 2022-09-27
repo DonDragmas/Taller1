@@ -164,3 +164,25 @@ form.addEventListener('submit', e=>{
     }
 })
 
+
+/*Modal*/ 
+
+let modal=document.getElementById("terminos");
+let ventana=document.getElementById("ventanaModal");
+let cerrar=document.querySelector(".cerrarModal");
+
+modal.addEventListener("click", ()=>{
+    ventana.style.display="block";
+})
+cerrar.addEventListener("click", ()=>{
+    ventana.style.display="none";
+})
+
+window.addEventListener("click",(e)=>{
+    if (e.target==ventana) {
+        ventana.style.display="none";
+    }
+
+
+})
+
