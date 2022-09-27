@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palabras</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/calculadora.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+<form class="from-ejercicios">
+    <div class="group-form">
+        <label for="palabra" class="form-label">Ingrese Una Palabra</label><br>
+        <input type="text" class="form-control" id="palabra"><br>
+    </div>
+    <div class="group-form">
+        <label>Seleccione una opcion</label>
+        <select class="form-select" id="palabra2">
+            <option selected>Seleccione una opcion</option>
+            <option value="1">Caracteres de la palabra</option>
+            <option value="2">Palabras en Mayuscula</option>
+            <option value="3">Palabras en Minuscula</option>
+            <option value="4">Caracter de la palabra</option>
+        </select>
+    </div>
+        <button type="submit" class="btn_azul" onclick="calcular()">calcular</button>
+    </div>
+</form>
+    <script src="js/palabras.js"></script>
+</body>
+</html>

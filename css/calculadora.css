@@ -1,0 +1,41 @@
+body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: grey;
+}
+
+input{
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+input:focus{
+    border-radius: 25px;
+    outline: none;
+    padding-left: 10px;
+    background: rgba(25, 25, 25, 0.2);
+}
+
+.from-ejercicios{
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.form-select{
+    padding: 5px;
+    margin-bottom: 80px;
+}
+
+.btn_azul{
+    margin: 10px;
+}
